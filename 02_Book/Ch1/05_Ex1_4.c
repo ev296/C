@@ -9,7 +9,7 @@ int main()
      step=20;
      cel=lower;
 
-     printf("Temperatures °C --> °F\n");
+     printf("Temperatures Â°C --> Â°F\n");
 
      while (cel<= upper){
          farenheit=(cel*(9.0/5.0))+32;
