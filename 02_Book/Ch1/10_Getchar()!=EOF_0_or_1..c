@@ -8,3 +8,5 @@
 		printf ("Value of \"getchar() != EOF\": %i\n", ((c=getchar()) != EOF));
 	}
  } 
+
+//RogelioASR
