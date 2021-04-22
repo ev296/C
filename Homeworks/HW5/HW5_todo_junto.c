@@ -207,3 +207,5 @@ int noHayCasillasSinAbrir(char tablero[ROWS][COLUMNS]) { //CHECK IF THE PLAYER W
   }
   return 1;
 }
+
+//Credits Toño Cortés
