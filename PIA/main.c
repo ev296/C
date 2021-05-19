@@ -9,7 +9,7 @@ int END;
 
 int main(){
 
-    int M, D; //mes y día de cumpleaños
+    int M, D; //mes y dÃ­a de cumpleaÃ±os
     printf("Welcome to the HOROSCOPE, in this program you will know your zodiac sign and another interesting data.\n");
     printf("Please enter your birthday date with format MM/DD\n");
     printf("MONTH:\n");
