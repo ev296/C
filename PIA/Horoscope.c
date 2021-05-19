@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "Horoscope.h"
 void cls (void) {
 system ("cls");
 }
@@ -141,14 +142,14 @@ void Compatibilidad (){
         case 3: printf("Compatible: this water sign is imaginative, sensitive, calm, patient and spiritual, which brings it closer to Capricorn and Taurus.\n\n");
                 printf("Not compatible: Gemini and Sagittarius are the signs that do not match Pisces. Virgo is its totally opposite sign, mainly because those who have it are very practical and analysts.\n\n");
         break;
-        case 4: printf("Compatible: Aries, a sign of fire, is characterized by its energy, is pioneering, adventurous and brave; in addition, is very sure of itself pampering. That is why the signs that agree most with love are Aquarius and Gemini. But if youre looking for a friendship, Leo and Sagittarius are the ones.\n\n");
-                printf("Not compatible: Dont even think about having a relationship with Cancer and Capricorn; it will break soon.\n\n");
+        case 4: printf("Compatible: Aries, a sign of fire, is characterized by its energy, is pioneering, adventurous and brave; in addition, is very sure of itself pampering. That is why the signs that agree most with love are Aquarius and Gemini. But if you are looking for a friendship, Leo and Sagittarius are the ones.\n\n");
+                printf("Not compatible: Don not even think about having a relationship with Cancer and Capricorn; it will break soon.\n\n");
         break;
         case 5: printf("Compatible: People under this sign are patient and persistent, they love to feel safe and love fidelity, but they can also be jealous and possessive. Your ideal partner can be Cancer or Pisces.\n\n");
                 printf("In friendship, Virgo and Capricorn are the choice.\n\n");
                 printf("Not compatible: Neither Leo nor Aquarium are indicated.\n\n");
         break;
-        case 6: printf("Compatible: Its an air sign; you have to feel freedom. These people are characterized by being affectionate and intellectual, so they are akin to Aries and Leo. With Libra and Aquarius you can have a good friendship.\n\n");
+        case 6: printf("Compatible: It is an air sign; you have to feel freedom. These people are characterized by being affectionate and intellectual, so they are akin to Aries and Leo. With Libra and Aquarius you can have a good friendship.\n\n");
                 printf("Incompatible: Virgo and Pisces will not reach agreements with Gemini.\n\n");
         break;
         case 7: printf("Compatible: This water sign usually has mood swings and is quite reserved. In addition, he is a worker, family, homely, reliable, loyal and very good person, so his ideal partner are the signs of land, Virgo and Taurus.\n\n");
