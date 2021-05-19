@@ -9,7 +9,7 @@ void HoroscopoDelDia (){
     int RandH; //numero random del horóscopo del día
     int RandLove, RandCareer, RandWellB; //Saber más del horóscopo
     printf("MY HOROSCOPE OF THE DAY\n\n");
-    RandH=(rand()%12);
+    RandH=(rand()%12)+1;
       switch(RandH){
         case 1: printf("An unusual and beneficial development in your personal life could have you contemplating moving. This represents not only a positive change in your living conditions, but in your entire life as well. New friends and contacts could appear on the scene, probably those in interesting professions or who share a lot of your own interests. Expect some visitors in the evening. This could be a rather overwhelming day, but a wonderful one nonetheless.\n");
         break;
@@ -48,7 +48,7 @@ void HoroscopoDelDia (){
 
             switch(H){
             case 1: printf("YOUR LOVE HOROSCOPE\n\n");
-            RandLove=(rand()%5);
+            RandLove=(rand()%5)+1;
                 switch(RandLove){
                 case 1: printf("It is time to heal some petty disputes that you have had with a family member or friend. The energy of the day will help you to experience peace and mutual understanding with someone who has not always been close to you. It is a good time to be honest and clear and to let this person know what is on your mind. By being open, you will create a path for future peace.\n");
                 break;
@@ -63,7 +63,7 @@ void HoroscopoDelDia (){
                 }
             break;
             case 2: printf("YOUR CAREER HOROSCOPE\n\n");
-            RandCareer=(rand()%5);
+            RandCareer=(rand()%5)+1;
                 switch(RandCareer){
                 case 1:printf("This is a good day to reflect on the past weeks and get some perspective. You have probably been working too hard, and neglecting the other priorities in your life. Give yourself this day to relax and visit with friends and relatives. Spend the day chatting, laughing and unwinding. Don't obsess about tasks that are waiting for you back at the office. Trust us, they are not going anywhere.\n");
                 break;
@@ -78,7 +78,7 @@ void HoroscopoDelDia (){
                 }
             break;
             case 3:printf("YOUR WELLBEING HOROSCOPE\n\n");
-            RandWellB=(rand()%5);
+            RandWellB=(rand()%5)+1;
                 switch(RandWellB){
                 case 1:printf("The question \"Am I losing my memory?\" may come up constantly today. You might have the strange feeling that there was something you had to do, but can't quite remember what. Don't worry about it - if you push yourself too hard you'll drive yourself crazy. Your imagination could come up with a lot of ideas for stories, poems, etc. Write them down as soon as they come. You'll want to remember them!\n");
                 break;
@@ -90,8 +90,6 @@ void HoroscopoDelDia (){
                 break;
                 }
             break;
-            case 4: END=4;
-            break;
             }
             printf("\n");
 }
@@ -99,7 +97,7 @@ void FortalezasYDebilidades(){
         int RandStrengts, RandWeakness; //Strengts and weaknesses
         printf("THE STRENGTHS AND WEAKNESSES IN MY SIGN\n\n");
         printf("STRENGTHS:\n");
-            RandStrengts=(rand()%5);
+            RandStrengts=(rand()%5)+1;
             switch(RandStrengts){
             case 1: printf("Courageous, determined, confident, enthusiastic, optimistic, honest and passionate\n");
             break;
@@ -114,7 +112,7 @@ void FortalezasYDebilidades(){
             }
             printf("\n");
         printf("WEAKNESSES:\n");
-            RandWeakness=(rand()%5);
+            RandWeakness=(rand()%5)+1;
             switch(RandWeakness){
             case 1: printf("Impatient, moody, short-tempered, impulsive and aggressive\n");
             break;
