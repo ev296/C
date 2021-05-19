@@ -123,7 +123,6 @@ int main(){
             printf("Your zodiac signs is LIBRA\n\n");
             Z=10;
         }
-       if(D>30){
     break;
     case 10:
     if(D>0&&D<=23){
@@ -217,5 +216,4 @@ switch(Z){
     }
     }
     return 0;
-}
 }
