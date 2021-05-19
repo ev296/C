@@ -226,8 +226,7 @@ switch(Z){
     printf("1. MY HOROSCOPE OF THE DAY\n");
     printf("2. THE STRENGTHS AND WEAKNESSES IN MY SIGN\n");
     printf("3. YOUR COMPATIBILITY WITH OTHER SIGNS\n");
-    printf("4. EXIT\n");
-    printf("\n");
+    printf("4. EXIT\n\n");
     printf("ANSWER:");
     scanf ("%d", &END);
 
