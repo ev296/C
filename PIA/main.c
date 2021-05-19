@@ -34,7 +34,7 @@ int main(){
     scanf("%2d", &D);
     }
     switch(M){
-    case 01:
+    case 1:
     if(D>0&&D<=19){
         printf("Your zodiac signs is CAPRICORN\n\n");
         Z=1;
@@ -44,7 +44,7 @@ int main(){
             Z=2;
         }
     break;
-    case 02:
+    case 2:
     if(D>0&&D<=18){
         printf("Your zodiac signs is AQUARIUS\n\n");
         Z=2;
@@ -54,7 +54,7 @@ int main(){
             Z=3;
         }
     break;
-    case 03:
+    case 3:
     if(D>0&&D<=20){
         printf("Your zodiac signs is PISCES\n\n");
         Z=3;
@@ -64,7 +64,7 @@ int main(){
             Z=4;
         }
     break;
-    case 04:
+    case 4:
     if(D>0&&D<=20){
         printf("Your zodiac signs is ARIES\n\n");
         Z=4;
@@ -74,7 +74,7 @@ int main(){
             Z=5;
         }
     break;
-    case 05:
+    case 5:
     if(D>0&&D<=21){
         printf("Your zodiac signs is TAURUS\n\n");
         }
@@ -84,7 +84,7 @@ int main(){
             Z=6;
         }
     break;
-    case 06:
+    case 6:
     if(D>0&&D<=21){
         printf("Your zodiac signs is GEMINI\n\n");
         Z=6;
@@ -94,7 +94,7 @@ int main(){
         Z=7;
         }
     break;
-    case 07:
+    case 7:
     if(D>0&&D<=22){
         printf("Your zodiac signs is CANCER\n\n");
         Z=7;
