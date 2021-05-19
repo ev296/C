@@ -3,6 +3,7 @@
 ## INTRODUCTION
 
 For my Integrative Product of Learning, I program a little dynamic horoscope, you can choose to consult your horoscope of the day or another option. 
+
 First, you have to join your birthday date and the program will give you your zodiac sign by default. Then there will be three options you can choose from:
 
 1. The traditional horoscope of the day tells you the predictions of some areas of your life depending on your zodiac sign.
@@ -31,11 +32,11 @@ Data input and output are performed correctly throughout the process.
 
 Can be compiled in GDB and CODE BLOKS; For GDB the order is as follows:
 
-Horoscope. h
+- Horoscope. h
 
-Horoscope. c
+- Horoscope. c
 
-main. c
+- main. c
 
 (Deleting the 2 #include "Horoscope.h")
 
