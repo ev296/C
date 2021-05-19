@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int Z;//signo
-int MENU0=0;//FECHA
-int MENU=0;//MENU
+
 int END;
 void HoroscopoDelDia();
 void FortalezasYDebilidades();
