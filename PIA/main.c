@@ -191,8 +191,7 @@ int main(){
     exit(EXIT_FAILURE);
     break;
     }
-//SIGNIFICADO DEL SIGNO --------------------------------------OPCIONAL CAMBIO
-
+//SIGNIFICADO DEL SIGNO
 switch(Z){
         case 1: printf("You have a natural ability to find a solution to things, even if they look like lost cases. They are lovers of order, stability and of everything walking as planned.\n");
         break;
@@ -220,7 +219,7 @@ switch(Z){
         break;
     }
 
-    //MENU-------------------------------------------------------------------------------------------------------------
+    //MENU
     while(MENU==0){
     printf("\n");
     printf("Okey, now what do you want to do? Choose a number\n");
@@ -233,19 +232,16 @@ switch(Z){
     scanf ("%d", &END);
 
     cls();
-    //HOROSCOPO DEL DIA------------------------------------------------------------------------------------------------------
+    
     if(END==1){
     HoroscopoDelDia();
     }
-    //Fortalezas y debilidades segun tu signo-------------------------------------------------------
     if(END==2){
     FortalezasYDebilidades();
     }
-    //Compatibilidades del signo------------------------------------------------------------------------------------------------
     if(END==3){
     Compatibilidad();
     }
-
     if (END==4){
     printf("I hope you liked it\n\nEVELYN NANEZ IBANEZ 1961288\n\nPress ENTER to EXIT\n");
     MENU++;
@@ -253,7 +249,6 @@ switch(Z){
     if(END>=5|END==0){
             printf("There is an error, try again\n");
     }
-
     }
     return 0;
 }
