@@ -4,11 +4,10 @@ void cls (void) {
 system ("cls");
 }
 void HoroscopoDelDia (){
-    int H; //SABER M¡S DEL HOR”SCOPO
-    int RandH; //numero random del horÛscopo del dÌa
-    int RandLove, RandCareer, RandWellB; //Saber m·s del horÛscopo
-    printf("MY HOROSCOPE OF THE DAY\n");
-    printf("\n");
+    int H; //SABER M√ÅS DEL HOR√ìSCOPO
+    int RandH; //numero random del hor√≥scopo del d√≠a
+    int RandLove, RandCareer, RandWellB; //Saber m√°s del hor√≥scopo
+    printf("MY HOROSCOPE OF THE DAY\n\n");
     RandH=(rand()%12);
       switch(RandH){
         case 1: printf("An unusual and beneficial development in your personal life could have you contemplating moving. This represents not only a positive change in your living conditions, but in your entire life as well. New friends and contacts could appear on the scene, probably those in interesting professions or who share a lot of your own interests. Expect some visitors in the evening. This could be a rather overwhelming day, but a wonderful one nonetheless.\n");
@@ -33,24 +32,21 @@ void HoroscopoDelDia (){
         break;
         case 11: printf("Today promises to be one of the most fortunate days you've had in a long time. You could find yourself in just the right place at the right time to meet the right person - which could propel you in a specific direction you've been wanting to take! This is not really pure luck, however. Changes that have been going on within you have caused you to attract the breaks you deserve. Make the most of them!\n");
         break;
-        printf("Feel free to engage in goofy and playful activities when no one is watching. If you can't have fun with yourself, then who can you have fun with? Don't feel like you need to entertain the masses. All you need to do is entertain yourself. There is a strong guiding force that likes to see you having a good time. Remember that you can be productive today even when you are having fun.\n");
+        case 12: printf("Feel free to engage in goofy and playful activities when no one is watching. If you can't have fun with yourself, then who can you have fun with? Don't feel like you need to entertain the masses. All you need to do is entertain yourself. There is a strong guiding force that likes to see you having a good time. Remember that you can be productive today even when you are having fun.\n");
         break;
       }
-
         printf("\n");
         printf("You want to know something more?\n");
         printf("1. YOUR LOVE HOROSCOPE\n");
         printf("2. YOUR CAREER HOROSCOPE\n");
         printf("3. YOUR WELLBEING HOROSCOPE\n");
-        printf("4. EXIT\n");
-        printf("\n");
+        printf("4. EXIT\n\n");
         printf("ANSWER:");
         scanf ("%d", &H);
         cls();
 
             switch(H){
-            case 1: printf("YOUR LOVE HOROSCOPE\n");
-            printf("\n");
+            case 1: printf("YOUR LOVE HOROSCOPE\n\n");
             RandLove=(rand()%5);
                 switch(RandLove){
                 case 1: printf("It is time to heal some petty disputes that you have had with a family member or friend. The energy of the day will help you to experience peace and mutual understanding with someone who has not always been close to you. It is a good time to be honest and clear and to let this person know what is on your mind. By being open, you will create a path for future peace.\n");
@@ -65,14 +61,12 @@ void HoroscopoDelDia (){
                 break;
                 }
             break;
-            case 2: printf("YOUR CAREER HOROSCOPE\n");
-            printf("\n");
+            case 2: printf("YOUR CAREER HOROSCOPE\n\n");
             RandCareer=(rand()%5);
                 switch(RandCareer){
                 case 1:printf("This is a good day to reflect on the past weeks and get some perspective. You have probably been working too hard, and neglecting the other priorities in your life. Give yourself this day to relax and visit with friends and relatives. Spend the day chatting, laughing and unwinding. Don't obsess about tasks that are waiting for you back at the office. Trust us, they are not going anywhere.\n");
                 break;
                 case 2:printf("Pleasant companionship may well surround you today. Friends at work may stop by to chat and say hello. Phone calls with business associates may be marked by increased feelings of mutual respect and collaboration. Consider spending some time with friends or family later on in the day. Perhaps an evening with just one very special person is what you'll enjoy most. Whatever your preference, make the most of the day's positive and social energy.\n");
-                printf("Press ENTER to EXIT");
                 break;
                 case 3:printf("Today your communication abilities are heightened. You will find it easy to express yourself and relate to others, either verbally or in writing. If you have to make a presentation or write a speech, you will find that you are calm and inspired as you do so. In fact, anything you work on today should flow smoothly and easily. Enjoy this great day!\n");
                 break;
@@ -82,8 +76,7 @@ void HoroscopoDelDia (){
                 break;
                 }
             break;
-            case 3:printf("YOUR WELLBEING HOROSCOPE\n");
-            printf("\n");
+            case 3:printf("YOUR WELLBEING HOROSCOPE\n\n");
             RandWellB=(rand()%5);
                 switch(RandWellB){
                 case 1:printf("The question \"Am I losing my memory?\" may come up constantly today. You might have the strange feeling that there was something you had to do, but can't quite remember what. Don't worry about it - if you push yourself too hard you'll drive yourself crazy. Your imagination could come up with a lot of ideas for stories, poems, etc. Write them down as soon as they come. You'll want to remember them!\n");
@@ -103,8 +96,7 @@ void HoroscopoDelDia (){
 }
 void FortalezasYDebilidades(){
         int RandStrengts, RandWeakness; //Strengts and weaknesses
-        printf("THE STRENGTHS AND WEAKNESSES IN MY SIGN\n");
-        printf("\n");
+        printf("THE STRENGTHS AND WEAKNESSES IN MY SIGN\n\n");
         printf("STRENGTHS:\n");
             RandStrengts=(rand()%5);
             switch(RandStrengts){
@@ -149,14 +141,14 @@ void Compatibilidad (){
         case 3: printf("Compatible: this water sign is imaginative, sensitive, calm, patient and spiritual, which brings it closer to Capricorn and Taurus.\n\n");
                 printf("Not compatible: Gemini and Sagittarius are the signs that do not match Pisces. Virgo is its totally opposite sign, mainly because those who have it are very practical and analysts.\n\n");
         break;
-        case 4: printf("Compatible: Aries, a sign of fire, is characterized by its energy, is pioneering, adventurous and brave; in addition, is very sure of itself pampering. That is why the signs that agree most with love are Aquarius and Gemini. But if youíre looking for a friendship, Leo and Sagittarius are the ones.\n\n");
-                printf("Not compatible: Donít even think about having a relationship with Cancer and Capricorn; it will break soon.\n\n");
+        case 4: printf("Compatible: Aries, a sign of fire, is characterized by its energy, is pioneering, adventurous and brave; in addition, is very sure of itself pampering. That is why the signs that agree most with love are Aquarius and Gemini. But if you¬íre looking for a friendship, Leo and Sagittarius are the ones.\n\n");
+                printf("Not compatible: Don¬ít even think about having a relationship with Cancer and Capricorn; it will break soon.\n\n");
         break;
         case 5: printf("Compatible: People under this sign are patient and persistent, they love to feel safe and love fidelity, but they can also be jealous and possessive. Your ideal partner can be Cancer or Pisces.\n\n");
                 printf("In friendship, Virgo and Capricorn are the choice.\n\n");
                 printf("Not compatible: Neither Leo nor Aquarium are indicated.\n\n");
         break;
-        case 6: printf("Compatible: Itís an air sign; you have to feel freedom. These people are characterized by being affectionate and intellectual, so they are akin to Aries and Leo. With Libra and Aquarius you can have a good friendship.\n\n");
+        case 6: printf("Compatible: It¬ís an air sign; you have to feel freedom. These people are characterized by being affectionate and intellectual, so they are akin to Aries and Leo. With Libra and Aquarius you can have a good friendship.\n\n");
                 printf("Incompatible: Virgo and Pisces will not reach agreements with Gemini.\n\n");
         break;
         case 7: printf("Compatible: This water sign usually has mood swings and is quite reserved. In addition, he is a worker, family, homely, reliable, loyal and very good person, so his ideal partner are the signs of land, Virgo and Taurus.\n\n");
