@@ -3,7 +3,7 @@
 #include "Horoscope.h"
 
 int FECHA=0;
-int MENU=0
+int MENU=0;
 int Z;//signo
 int END;
 
