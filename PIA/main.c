@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Horoscope.h"
-#define MENU0 0//FECHA
-#define MENU 0//MENU
 
+int FECHA=0;
+int MENU=0
 int Z;//signo
 int END;
 
 int main(){
-
+    
     int M, D; //mes y día de cumpleaños
     printf("WELCOME TO THE HOROSCOPE!!\n\n In this program you will know your zodiac sign and another interesting data.\n");
     printf("Please enter your birthday date with format MM/DD\n");
@@ -22,6 +22,17 @@ int main(){
     cls();
 
     //SIGNO
+    while (FECHA==0){
+    
+    while(M>=13|M==0|D==0|D>32){
+    printf("There is an error, try again\n");
+    printf("Please enter your birthday date with format MM/DD\n");
+    printf("MONTH:\n");
+    scanf("%d", &M);
+
+    printf("DAY:");
+    scanf("%2d", &D);
+    }
     switch(M){
     case 01:
     if(D>0&&D<=19){
@@ -42,10 +53,6 @@ int main(){
             printf("Your zodiac signs is PISCES\n\n");
             Z=3;
         }
-       if(D>28){
-            printf("There is an error on the day of the date, try again please\n");
-            exit(EXIT_FAILURE);
-            }
     break;
     case 03:
     if(D>0&&D<=20){
@@ -56,10 +63,6 @@ int main(){
             printf("Your zodiac signs is ARIES\n\n");
             Z=4;
         }
-        if(D>31){
-            printf("There is an error on the day of the date, try again please\n");
-            exit(EXIT_FAILURE);
-            }
     break;
     case 04:
     if(D>0&&D<=20){
@@ -70,10 +73,6 @@ int main(){
             printf("Your zodiac signs is TAURUS\n\n");
             Z=5;
         }
-        if(D>30){
-            printf("There is an error on the day of the date, try again please\n");
-            exit(EXIT_FAILURE);
-            }
     break;
     case 05:
     if(D>0&&D<=21){
@@ -84,10 +83,6 @@ int main(){
             printf("Your zodiac signs is GEMINI\n\n");
             Z=6;
         }
-        if(D>31){
-            printf("There is an error on the day of the date, try again please\n");
-            exit(EXIT_FAILURE);
-            }
     break;
     case 06:
     if(D>0&&D<=21){
@@ -98,10 +93,6 @@ int main(){
             printf("Your zodiac signs is CANCER\n\n");
         Z=7;
         }
-       if(D>30){
-            printf("There is an error on the day of the date, try again please\n");
-            exit(EXIT_FAILURE);
-            }
     break;
     case 07:
     if(D>0&&D<=22){
@@ -111,10 +102,6 @@ int main(){
         if(D>22&&D<31){
             printf("Your zodiac signs is LEO\n\n");
             Z=8;
-        }
-        if(D>31){
-            printf("There is an error on the day of the date, try again please\n");
-            exit(EXIT_FAILURE);
         }
     break;
     case 8:
@@ -126,10 +113,6 @@ int main(){
             printf("Your zodiac signs is VIRGO\n\n");
             Z=9;
         }
-        if(D>31){
-            printf("There is an error on the day of the date, try again please\n");
-            exit(EXIT_FAILURE);
-            }
     break;
     case 9:
     if(D>0&&D<=24){
@@ -141,9 +124,6 @@ int main(){
             Z=10;
         }
        if(D>30){
-            printf("There is an error on the day of the date, try again please\n");
-            exit(EXIT_FAILURE);
-            }
     break;
     case 10:
     if(D>0&&D<=23){
@@ -154,10 +134,6 @@ int main(){
             printf("Your zodiac signs is SCORPIO\n\n");
             Z=11;
         }
-        if(D>31){
-            printf("There is an error on the day of the date, try again please\n");
-            exit(EXIT_FAILURE);
-            }
     break;
     case 11:
     if(D>0&&D<=22){
@@ -168,10 +144,6 @@ int main(){
             printf("Your zodiac signs is SAGITTARIUS\n\n");
             Z=12;
         }
-        if(D>30){
-            printf("There is an error on the day of the date, try again please\n");
-            exit(EXIT_FAILURE);
-            }
     break;
     case 12:
     if(D>0&&D<=21){
@@ -182,15 +154,9 @@ int main(){
             printf("Your zodiac signs is CAPRICORN\n\n");
         Z=1;
         }
-        if(D>31){
-            printf("There is an error on the day of the date, try again please\n");
-            exit(EXIT_FAILURE);
-            }
-    break;
-    default: printf("There is an error on the month of the date, try again please\n");
-    exit(EXIT_FAILURE);
     break;
     }
+    FECHA++;
 //SIGNIFICADO DEL SIGNO
 switch(Z){
         case 1: printf("You have a natural ability to find a solution to things, even if they look like lost cases. They are lovers of order, stability and of everything walking as planned.\n");
@@ -247,6 +213,7 @@ switch(Z){
     }
     if(END>=5|END==0){
             printf("There is an error, try again\n");
+    }
     }
     }
     return 0;
