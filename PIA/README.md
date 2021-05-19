@@ -32,16 +32,17 @@ main. c
 Or you can go back, open the "PIA" file and it all comes together.
 And in CODE BLOKS you only need to add the 3 tabs.
 It usually takes a while to compile so wait until It welcomes you.
-![alt text](http://url/to/img.png)
 
 # REFERENCES
-Horoscope information
+Horoscope information:
+
 https://www.msn.com/en-us/lifestyle/horoscope/
-Book
+Book:
+
 Kernighan, R. W. D. B. M. (2021). The C Programming Language by Brian W. Kernighan, Dennis M. Ritchie (1988) Paperback. Prentice.
 
 ## PERSONAL DATA
--NAME: Evelyn Náñez Ibáñez
--DISCORD ACCOUNT: Ev#5616
--ID NUMBER: 1961288
--CLASS: Thursday V4-V6
+- NAME: Evelyn Náñez Ibáñez
+- DISCORD ACCOUNT: Ev#5616
+- ID NUMBER: 1961288
+- CLASS: Thursday V4-V6
