@@ -15,7 +15,7 @@ First, you have to join your birthday date and the program will give you your zo
 ## LINKS
 Program: https://onlinegdb.com/ztgV5ljSE
 
-Video: 
+Video: https://youtu.be/2nZiDa9zEUI
 
 ## CONTENT
 This program is recreational, the user can consult the sections as often as he wants or leave the program.
