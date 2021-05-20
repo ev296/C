@@ -46,6 +46,17 @@ And in CODE BLOKS you only need to add the 3 tabs.
 
 It usually takes a while to compile so wait until It welcomes you.
 
+# AUTOEVALUATION
+1: complexity 1 (not very complicated but not very basic)
+
+2: functionality 3 (everything works correctly and responds to errors)
+
+3: code 3 (I tried to keep it as clean as possible)
+
+4: storage 0 (no structures)
+
+5: documentation 3 (the report and video show the program well)
+
 # REFERENCES
 Horoscope information:
 
